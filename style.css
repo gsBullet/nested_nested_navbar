@@ -1,0 +1,336 @@
+
+header{
+    background-color: #355C7D;
+    color: white;
+    padding: 10px;
+}
+header p{
+    display: inline-block;
+    padding-left: 50px;
+}
+header a{
+    color: aliceblue;
+}
+header button{
+    float: right;
+    line-height: 20px;
+    background-color: #355C7D;
+    border: none;
+    padding-right: 70px;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.navbar{
+    /* border: 1px solid green; */
+    padding-left: 50px;
+    
+}
+.navbar img{
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+    /* border: 2px solid blue; */
+}
+.navbar span{
+    font-size: 50px;
+    color: #355C7D;
+    font-weight: bolder;
+    /* border: 1px solid red; */
+    vertical-align: 20px;
+}
+.navbar>ul{
+    display: inline-block;
+    color: #355C7D;
+    list-style-type: none;
+    padding-left: 300px;
+    padding-top: 20px;
+    vertical-align: top;
+}
+
+.navbar>ul>li{
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    position: relative;
+}
+    
+.navbar>ul>li>a {
+    text-decoration: none;
+    color: #355C7D;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: bold;
+    /* border: 2px solid green; */
+}
+
+.navbar>ul>li>ul{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    /* border: 1px solid red; */
+    background-color: white;
+    position: absolute;
+    display: none;
+}
+
+.navbar>ul>li>ul>li{
+    list-style-type: none;
+    position: relative;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid rgba(113, 107, 107, 0.389);
+}
+.navbar>ul>li>ul>li>a{
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    color: #355C7D;
+}
+
+
+.navbar>ul>li:hover ul{
+    display: block;
+    
+       
+} 
+.navbar>ul>li>a:hover{
+    color: aliceblue;
+    background-color: #D95B43;
+    border-radius: 15px;
+    
+}
+.navbar>ul>li>a:focus{
+    color: aliceblue;
+    background-color: #D95B43;
+    border-radius: 15px;
+}
+.navbar>ul>li>ul>li>a:hover{
+    color:#D95B43;
+    border-bottom: 1px solid #000;
+}
+.navbar>ul>li>ul>li>a:focus{
+    color:#D95B43;
+    border-bottom: 1px solid #000;
+}
+.navbar>ul>li>ul>li>ul{
+    padding: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 999;
+}
+.navbar>ul>li>ul>li>ul>li{
+    list-style-type: none;
+    display: none;
+    width: 220px;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(87, 82, 82, 0.448);
+    overflow: hidden;
+    background-color: white;
+    /* border: 1px solid rgb(222, 18, 18); */
+    
+}
+.navbar>ul>li>ul>li>ul>li>a{
+    color: #355C7D;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px;
+    position: absulate;
+}
+.navbar>ul>li>ul>li:hover li{
+    display: block;
+
+     
+}
+.navbar>ul>li>ul>li>ul>li:hover{
+    border-bottom: 1px solid #000;
+}
+.navbar>ul>li>ul>li>ul>li>a:hover{
+    color: #D95B43;
+}
+
+.navbar2{
+    background-color: rgb(246, 241, 234);
+    padding: 20px 50px;
+    color: #355b7dfe;
+    
+}
+.navbar2 h2{
+    text-transform: uppercase;
+    display: inline-block;
+    
+}
+.navbar2 p{
+    float: right;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+.navbar2 p span{
+    font-weight: 600;
+}
+.mainoption{
+    padding: 50px;
+}
+.sideinfo{
+    display: inline-block;
+    width: 80px;
+    height: 120px;
+    float: left;
+}
+.sideinfo{
+    padding-right: 50px;
+}
+.sideinfo span{
+    /* border: 1px solid greenyellow; */
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+    height: 38%;
+    border-radius: 10px;
+   
+}
+.sideinfo .date{
+    background-color: #355C7D;
+    color: aliceblue;
+}
+.sideinfo .message{
+    background-color: #D95B43;
+    color: aliceblue;
+}
+.heartpoint{
+    overflow: hidden;
+    color: #355C7D;
+    border: 1px solid rgba(128, 128, 128, 0.154);  
+}
+.heartpoint img{
+    width: 100%;
+    
+}
+.heartpoint h4{
+    padding: 20px;
+    font-size: 20px;
+   
+}
+.heartpoint p{
+    padding-left: 20px;
+}
+
+.mainbottom ul{
+    border: 1px solid rgba(128, 128, 128, 0.154);
+    padding-inline-start: 0px;
+    margin: 0 auto;
+}
+.mainbottom li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.154);
+    color: #355b7d92;
+}
+.sidepagebar{
+   /* border: 1px solid red; */
+   padding: 50px 50px 100px 0px;
+}
+.sidepagebar span{
+    float: right;
+    font-style: italic;
+    color: #355b7d93;
+    
+}
+.sidepagebar button{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.sidepagebar .button1{
+    background-color: #D95B43; 
+}
+.sidepagebar .button2{
+    background-color: #355C7D; 
+}
+
+.secondnavbar{
+    padding-left: 50px;
+    border-top: 1px solid rgba(128, 128, 128, 0.405);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.307);
+}
+
+.secondnavbar li{
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 10px;
+   
+}
+.secondnavbar li a{
+    text-decoration: none;
+    color: #355C7D;
+    border-right: 1px solid #355C7D;
+    padding-right: 10px;
+    
+}
+.ourinfo{
+    padding-left: 50px;
+    color: #355C7D;
+    background-color: rgba(128, 128, 128, 0.117);
+}
+.about{
+    width: 550px;
+    display: inline-block;
+}
+.about img{
+    display: inline-block;
+}
+.about p{
+    display: inline-block;
+   
+    width: 430px;
+    vertical-align: 40px;
+    color: #355b7d77;
+}
+.contactus{
+    width: 250px;
+    display: inline-block;
+    vertical-align: 40px;
+    padding: 30px;
+}
+.contactus span{
+    color: #355b7d72;
+    text-transform: capitalize;
+}
+.followus{
+    width: 250px;
+    display: inline-block;
+    padding: 30px;
+    vertical-align: 50px;
+}
+.followus i{
+    border: 1px solid aliceblue;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+footer{
+    background-color: #355C7D;
+    color: rgba(240, 248, 255, 0.961);
+    padding-left: 50px;
+    font-weight: 500;
+
+}
+footer a{
+    color: rgba(240, 248, 255, 0.961);
+   
+}
+footer ul{
+    display: inline-block;
+    right: 0;
+    padding-left: 800px;
+}
+footer li{
+    display: inline-block;
+    text-transform: capitalize;
+    padding-right: 15px;
+    border-right: 1px solid aliceblue;
+}
